@@ -2,9 +2,9 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Layout from "../components/Layout";
-import Home from "./asd";
-import NoMatch from "./g11g1";
-import Trade from "./afaf";
+import Home from "./Home";
+import NoMatch from "./NoMatch";
+import Trade from "./Trade";
 
 const Pages = () => {
   return (
