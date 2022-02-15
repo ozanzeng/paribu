@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import styled from "styled-components";
+import { LineChart, Line, ResponsiveContainer } from "recharts";
 
 const Table = styled.div`
   position: relative;
@@ -107,6 +108,30 @@ const Value = styled.span`
   text-align: center;
 `;
 
+const data = [
+  {
+    time: Math.random(),
+  },
+  {
+    time: Math.random(),
+  },
+  {
+    time: Math.random(),
+  },
+  {
+    time: Math.random(),
+  },
+  {
+    time: Math.random(),
+  },
+  {
+    time: Math.random(),
+  },
+  {
+    time: Math.random(),
+  },
+];
+
 const TradeTable = ({ tableData }) => {
   const navigate = useNavigate();
 
@@ -156,7 +181,21 @@ const TradeTable = ({ tableData }) => {
               <TdVolumeSymbol>{item.volumeSymbol}</TdVolumeSymbol>
             </Td>
             <Td style={{ width: "15%", justifyContent: "center" }}>
-              {item.graphic}
+              <ResponsiveContainer width='100%' height='100%'>
+                <LineChart
+                  width={175}
+                  height={65}
+                  data={data}
+                  margin={{
+                    top: 0,
+                    right: 0,
+                    bottom: 0,
+                    left: 30,
+                  }}
+                >
+                  <Line dataKey='time' stroke='#909094' dot={false} />
+                </LineChart>
+              </ResponsiveContainer>
             </Td>
             <Td style={{ width: "5%" }}>
               <Button

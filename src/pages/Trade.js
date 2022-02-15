@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import styled from "styled-components";
+import { LineChart, Line, ResponsiveContainer } from "recharts";
 
 const Container = styled.div`
   position: absolute;
@@ -53,6 +54,7 @@ const TransferType = styled.span`
 `;
 
 const Values = styled.div`
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,10 +68,39 @@ const Volume = styled.h2`
   padding: 30px 0;
   font-weight: 700;
 `;
+const ChartWrap = styled.h2`
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: 40px auto;
+`;
 
 const Trade = () => {
   const location = useLocation();
   const data = location.state.item;
+  const dataTime = [
+    {
+      time: Math.random(),
+    },
+    {
+      time: Math.random(),
+    },
+    {
+      time: Math.random(),
+    },
+    {
+      time: Math.random(),
+    },
+    {
+      time: Math.random(),
+    },
+    {
+      time: Math.random(),
+    },
+    {
+      time: Math.random(),
+    },
+  ];
 
   return (
     <Container>
@@ -83,6 +114,11 @@ const Trade = () => {
         </Header>
         <Values>
           <Volume>₺ {data.lastTradeValue}</Volume>
+          <ChartWrap>
+            <LineChart width={600} height={200} data={dataTime}>
+              <Line dataKey='time' stroke='#909094' dot={false} />
+            </LineChart>
+          </ChartWrap>
         </Values>
       </Wraper>
     </Container>

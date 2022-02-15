@@ -9,7 +9,15 @@
     "volume": "18.1M",
     "volumeSymbol": "usdt",
     "background": "rgba(80, 174, 148,0.2  )",
-    "graphic": "",
+    "graphic": [
+      { "time": "(Math.random())" },
+      { "time": "(Math.random())" },
+      { "time": "(Math.random())" },
+      { "time": "(Math.random())" },
+      { "time": "(Math.random())" },
+      { "time": "(Math.random())" },
+      { "time": "(Math.random())" }
+    ],
     "sitatue": 1
   },
   {
