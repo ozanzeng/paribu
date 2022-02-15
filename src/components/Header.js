@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "./Navigation";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const HeaderBar = styled.header`
   width: 100%;
@@ -33,7 +34,9 @@ const Header = () => {
   return (
     <HeaderBar>
       <Container>
-        <Logo />
+        <Link to={"/"}>
+          <Logo />
+        </Link>
         <Navigation />
       </Container>
     </HeaderBar>

@@ -5,6 +5,8 @@ import Header from "./Header";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700&display=swap');
+  
   body {
     font-family: 'Inter', sans-serif;
     margin: 0;
