@@ -9,6 +9,12 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+    background: #2f323e;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
   }
 `;
 

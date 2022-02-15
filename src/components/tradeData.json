@@ -1,0 +1,80 @@
+[
+  {
+    "icon": "https://www.paribu.com/app-assets/symbols/usdt.png",
+    "coinName": "Tether",
+    "transferType": "usdt-tl",
+    "lastTradeValue": "13,641",
+    "tradeSymbol": "TL",
+    "valueChange": "+ %0,0",
+    "volume": "18.1M",
+    "volumeSymbol": "usdt",
+    "background": "rgba(80, 174, 148,0.2  )",
+    "graphic": "",
+    "sitatue": 1
+  },
+  {
+    "icon": "https://www.paribu.com/app-assets/symbols/shib.png",
+    "coinName": "Shiba Inu",
+    "transferType": "shib-tl",
+    "lastTradeValue": "0,00042800",
+    "tradeSymbol": "TL",
+    "valueChange": "- %4,5",
+    "volume": "465622.1M",
+    "volumeSymbol": "shib",
+    "background": "rgba(240, 101, 0,0.2 )",
+    "graphic": "",
+    "sitatue": 0
+  },
+  {
+    "icon": "https://www.paribu.com/app-assets/symbols/mina.png",
+    "coinName": "Mina",
+    "transferType": "mina-tl",
+    "lastTradeValue": "37,89",
+    "tradeSymbol": "TL",
+    "valueChange": "+ %17,5",
+    "volume": "3.7M",
+    "volumeSymbol": "mina",
+    "background": "rgba(245, 151, 148,0.2 )",
+    "graphic": "",
+    "sitatue": 1
+  },
+  {
+    "icon": "https://www.paribu.com/app-assets/symbols/avax.png",
+    "coinName": "Avalanche",
+    "transferType": "avax-tl",
+    "lastTradeValue": "1.208,00",
+    "tradeSymbol": "TL",
+    "valueChange": "+ %13,1",
+    "volume": "118.0K",
+    "volumeSymbol": "avax",
+    "background": "rgba(245, 151, 148,0.2 )",
+    "graphic": "",
+    "sitatue": 1
+  },
+  {
+    "icon": "https://www.paribu.com/app-assets/symbols/ceek.png",
+    "coinName": "Ceek VR",
+    "transferType": "ceek-tl",
+    "lastTradeValue": "5,681",
+    "tradeSymbol": "TL",
+    "valueChange": "- %18,8",
+    "volume": "23.2M",
+    "volumeSymbol": "ceek",
+    "background": "rgba(210, 114, 74,0.2  )",
+    "graphic": "",
+    "sitatue": 0
+  },
+  {
+    "icon": "https://www.paribu.com/app-assets/symbols/lrc.png",
+    "coinName": "Loopring",
+    "transferType": "lrc-tl",
+    "lastTradeValue": "13,333",
+    "tradeSymbol": "TL",
+    "valueChange": "+ %8,5",
+    "volume": "8.9M",
+    "volumeSymbol": "lrc",
+    "background": "rgba(28, 96, 255,0.2 )",
+    "graphic": "",
+    "sitatue": 1
+  }
+]

@@ -35,7 +35,7 @@ const Slider = (props) => {
 
     const interval = setInterval(play, props.autoPlay * 1000);
     return () => clearInterval(interval);
-  }, []);
+  });
 
   const nextSlide = () => {
     if (activeIndex === props.slides.length - 1) {
