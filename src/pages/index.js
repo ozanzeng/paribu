@@ -11,7 +11,7 @@ const Pages = () => {
     <Routes>
       <Route path='/' element={<Layout />}>
         <Route index path='/' element={<Home />} />
-        <Route path='/easy-trade/' element={<Trade />} />
+        <Route path='/easy-trade/:transferType' element={<Trade />} />
         <Route path='*' element={<NoMatch />} />
       </Route>
     </Routes>

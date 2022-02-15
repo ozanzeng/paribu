@@ -151,7 +151,7 @@ const TradeTable = ({ tableData }) => {
               {item.graphic}
             </Td>
             <Td style={{ width: "5%" }}>
-              <Link to={item.transferType}>
+              <Link to={`/easy-trade/${item.transferType}`}>
                 <Button>AL</Button>
               </Link>
             </Td>
